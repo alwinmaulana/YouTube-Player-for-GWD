@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head data-gwd-animation-mode="proMode">
+  <link href="gwdimage_style.css" data-version="6" data-exports-type="gwd-image" rel="stylesheet">
+  <link href="gwdpage_style.css" data-version="8" data-exports-type="gwd-page" rel="stylesheet">
+  <link href="gwddoubleclick_style.css" data-version="9" data-exports-type="gwd-doubleclick" rel="stylesheet">
+  <link href="gwdtaparea_style.css" data-version="3" data-exports-type="gwd-taparea" rel="stylesheet">
+  <link href="gwdpagedeck_style.css" data-version="8" data-exports-type="gwd-pagedeck" rel="stylesheet">
+  <meta name="generator" content="Google Web Designer 1.4.2.0915">
+  <meta name="template" content="Expandable 2.2.0">
+  <meta name="environment" content="gwd-doubleclick">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="ytplayer_style.css" rel="stylesheet">
+  <script data-source="googbase_min.js" data-version="3" data-exports-type="googbase" type="text/javascript" src="googbase_min.js"></script>
+  <script data-source="gwd_webcomponents_min.js" data-version="4" data-exports-type="gwd_webcomponents" type="text/javascript" src="gwd_webcomponents_min.js"></script>
+  <script src="ytplayer.js"></script>
+  <script src="videoController.js"></script>
+  <script src="image_sequence.js"></script>
+  <script src="main.js"></script>
+  <style type="text/css" id="gwd-lightbox-style">
+    .gwd-lightbox {
+      overflow: hidden;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .gwd-page-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-page-content {
+      -webkit-transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      position: absolute;
+      background-color: transparent;
+    }
+    .gwd-page-wrapper {
+      position: absolute;
+      -webkit-transform: translateZ(0px);
+      background-color: rgb(255, 255, 255);
+    }
+    .banner {
+      width: 300px;
+      height: 250px;
+    }
+    .expanded {
+      width: 500px;
+      height: 250px;
+    }
+    #expand-button {
+      position: absolute;
+      width: 300px;
+      height: 250px;
+      left: 0px;
+      top: 0px;
+    }
+    #close-button {
+      position: absolute;
+      width: 120px;
+      height: 48px;
+      left: 473px;
+      top: -20px;
+      background-image: none;
+      background-color: rgba(153, 153, 153, 0.2);
+    }
+    .gwd-div-naxm {
+      width: 500px;
+      height: 250px;
+      background-image: none;
+      background-color: rgb(255, 255, 255);
+    }
+    .gwd-div-ykgz {
+      width: 500px;
+      height: 250px;
+    }
+    .gwd-div-uwlj {
+      width: 500px;
+      height: 250px;
+    }
+    .gwd-div-yc30 {
+      width: 500px;
+      height: 250px;
+    }
+    .gwd-div-h2aw {
+      position: absolute;
+      width: 500px;
+      height: 250px;
+      left: 0px;
+      top: 0px;
+    }
+    .gwd-div-3865 {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 500px;
+      height: 250px;
+      background-image: none;
+      background-color: rgb(0, 0, 0);
+    }
+    .gwd-div-lowh {
+      width: 48.0769230769px;
+    }
+    [data-gwd-group="VideoControl"] .gwd-grp-tlzq.gwd-div-sjgb {
+      position: absolute;
+      height: 30px;
+      width: 410px;
+      left: 0px;
+      top: 0px;
+    }
+    [data-gwd-group="VideoControl"] .gwd-grp-tlzq.gwd-img-jz3e {
+      position: absolute;
+      width: 140px;
+      height: 32px;
+      left: 354.480769230767px;
+      top: 6px;
+    }
+    [data-gwd-group="VideoControl"] .gwd-grp-tlzq.gwd-img-15j3 {
+      position: absolute;
+      width: 238px;
+      height: 32px;
+      left: 376px;
+      top: 6px;
+    }
+    [data-gwd-group="VideoControl"] .gwd-grp-tlzq.gwd-img-1m6f {
+      position: absolute;
+      width: 112px;
+      height: 32px;
+      left: 4px;
+      top: 6px;
+    }
+    [data-gwd-group="VideoControl"] .gwd-grp-tlzq.gwd-div-tokw {
+      position: absolute;
+      height: 16px;
+      top: 6px;
+      left: 22px;
+      width: 328px;
+    }
+    [data-gwd-group="VideoControl"] .gwd-grp-tlzq.gwd-div-r8ga {
+      position: absolute;
+      height: 4px;
+      top: 6.39864245222901px;
+      left: 0px;
+      width: 328.46px;
+      background-image: none;
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+    [data-gwd-group="VideoControl"] .gwd-grp-tlzq.gwd-div-zehu {
+      position: absolute;
+      height: 4px;
+      left: 0px;
+      top: 6px;
+      width: 316.77px;
+      background-image: none;
+      background-color: rgba(192, 123, 123, 0.498039);
+    }
+    [data-gwd-group="VideoControl"] .gwd-grp-tlzq.gwd-div-vcys {
+      position: absolute;
+      height: 4px;
+      left: 0px;
+      top: 6px;
+      width: 301.9px;
+      background-image: none;
+      background-color: rgb(189, 0, 0);
+    }
+    [data-gwd-group="VideoControl"] .gwd-grp-tlzq.gwd-div-20b1 {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 328px;
+      height: 16px;
+    }
+    [data-gwd-group="VideoControl"] .gwd-grp-tlzq.gwd-div-gnuq {
+      position: absolute;
+      left: 0px;
+      height: 8px;
+      top: 4px;
+      width: 50px;
+    }
+    [data-gwd-group="VideoControl"] .gwd-grp-tlzq.gwd-div-msf8 {
+      position: absolute;
+      height: 4.3269230769px;
+      left: 0px;
+      top: 2px;
+      width: 50px;
+      background-image: none;
+      background-color: rgb(255, 255, 255);
+    }
+    .gwd-div-mxhi {
+      position: absolute;
+      left: 53px;
+      top: 200px;
+    }
+    .gwd-taparea-vn0e {
+      position: absolute;
+      width: 200px;
+      height: 140px;
+      left: 0px;
+      top: -236px;
+    }
+    .gwd-taparea-yr1c {
+      position: absolute;
+      width: 500px;
+      height: 250px;
+      left: 0px;
+      top: -189px;
+    }
+    [data-gwd-group="VideoControl"] {
+      width: 410px;
+      height: 30px;
+    }
+  </style>
+  <script data-source="gwdpage_min.js" data-version="8" data-exports-type="gwd-page" type="text/javascript" src="gwdpage_min.js"></script>
+  <script data-source="gwdpagedeck_min.js" data-version="8" data-exports-type="gwd-pagedeck" type="text/javascript" src="gwdpagedeck_min.js"></script>
+  <script data-source="gwdtaparea_min.js" data-version="3" data-exports-type="gwd-taparea" type="text/javascript" src="gwdtaparea_min.js"></script>
+  <script data-source="https://s0.2mdn.net/ads/studio/Enabler.js" data-exports-type="gwd-doubleclick" type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+  <script data-source="gwddoubleclick_min.js" data-version="9" data-exports-type="gwd-doubleclick" type="text/javascript" src="gwddoubleclick_min.js"></script>
+  <script type="text/javascript" src="groups_runtime.min.1.0.js" gwd-groups-version="1.0"></script>
+  <script type="text/javascript" src="gwdid.min.1.0.js" gwd-gwdid-version="1.0"></script>
+  <script type="text/javascript" gwd-events="support" src="gwd-events-support.1.0.js"></script>
+  <script data-source="gwdimage_min.js" data-version="6" data-exports-type="gwd-image" type="text/javascript" src="gwdimage_min.js"></script>
+</head>
+
+<body class="document-body">
+  <template id="gwd-group-definitions">
+    <div data-gwd-group-def="VideoControl" data-gwd-group-class="gwd-grp-tlzq" style="display: none;">
+      <div class="gwd-div-sjgb gwd-grp-tlzq" style="" data-gwd-grp-id="video_control">
+        <div class="gwd-div-tokw gwd-grp-tlzq" style="" data-gwd-grp-id="progressGroup">
+          <div class="gwd-div-r8ga gwd-grp-tlzq" style="" data-gwd-grp-id="slider"></div>
+          <div class="gwd-div-zehu gwd-grp-tlzq" style="" data-gwd-grp-id="buffer"></div>
+          <div class="gwd-div-vcys gwd-grp-tlzq" style="" data-gwd-grp-id="progress"></div>
+          <div class="gwd-div-20b1 gwd-grp-tlzq" style="" data-gwd-grp-id="hit"></div>
+          <div class="gwd-div-gnuq gwd-grp-tlzq" style="" data-gwd-grp-id="scrubbar">
+            <div class="gwd-div-msf8 gwd-grp-tlzq"></div>
+          </div>
+        </div>
+        <img is="gwd-image" source="assets/button_toggleVideo.png" class="gwd-img-1m6f gwd-grp-tlzq" style="" data-gwd-grp-id="toggleVideo">
+        <img is="gwd-image" source="assets/button_toggleAudio.png" class="gwd-img-jz3e gwd-grp-tlzq" style="" data-gwd-grp-id="toggleAudio">
+        <img is="gwd-image" source="assets/button_toggleHd.png" class="gwd-img-15j3 gwd-grp-tlzq" style="" data-gwd-grp-id="toggleHd">
+      </div>
+    </div>
+  </template>
+  <gwd-doubleclick id="gwd-ad" polite-load="">
+    <gwd-metric-configuration></gwd-metric-configuration>
+    <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck" default-page="banner-page" data-gwd-offset-top="0px" data-gwd-offset-left="0px">
+      <div is="gwd-page" id="banner-page" data-gwd-name="Banner page" class="gwd-page-wrapper banner gwd-lightbox" data-gwd-width="300px" data-gwd-height="250px">
+        <div class="gwd-page-content banner">
+          <gwd-taparea id="expand-button"></gwd-taparea>
+        </div>
+      </div>
+      <div is="gwd-page" id="expanded-page" expanded="" data-gwd-name="Expanded page" class="gwd-page-wrapper expanded gwd-lightbox gwd-div-i75p gwd-div-2wkv" data-gwd-width="500px" data-gwd-height="250px" style="">
+        <div class="gwd-page-content expanded">
+          <div class="gwd-div-3865"></div>
+          <div class="gwd-div-h2aw" id="video_player"></div>
+          <gwd-taparea id="close-button"></gwd-taparea>
+          <div class="gwd-div-mxhi" data-gwd-group="VideoControl" id="vc_normal"></div>
+          <gwd-taparea id="dummy" class="gwd-taparea-vn0e"></gwd-taparea>
+        </div>
+      </div>
+      <div id="expanded-page_1" is="gwd-page" class="gwd-page-wrapper gwd-lightbox gwd-div-naxm" data-gwd-width="500px" data-gwd-height="250px" data-gwd-name="Fullscreen page" expanded="">
+        <div class="gwd-page-content gwd-div-ykgz">
+          <gwd-taparea id="gwd-taparea_1" class="gwd-taparea-yr1c"></gwd-taparea>
+        </div>
+      </div>
+      <div id="expanded-page_2" is="gwd-page" class="gwd-page-wrapper gwd-lightbox gwd-div-uwlj" data-gwd-width="500px" data-gwd-height="250px" data-gwd-name="Resolve page" expanded="">
+        <div class="gwd-page-content gwd-div-yc30"></div>
+      </div>
+    </div>
+  </gwd-doubleclick>
+  <script type="text/javascript" gwd-events="registration">
+    // Support code for event handling in Google Web Designer
+     // This script block is auto-generated. Please do not edit!
+    gwd.actions.events.registerEventHandlers = function(event) {
+      gwd.actions.events.addHandler('expand-button', 'action', gwd.handleExpand_buttonAction, false);
+      gwd.actions.events.addHandler('close-button', 'action', gwd.handleClose_buttonAction, false);
+      gwd.actions.events.addHandler('close-button', 'action', gwd.handleClose_reportManualClose, false);
+      gwd.actions.events.addHandler('expanded-page', 'pagepresenting', gwd.onExpandPresent, false);
+      gwd.actions.events.addHandler('expanded-page_1', 'pagepresenting', gwd.onJumpToVideo, false);
+      gwd.actions.events.addHandler('dummy', 'action', gwd.auto_DummyAction, false);
+      gwd.actions.events.addHandler('dummy', 'action', gwd.auto_DummyAction1, false);
+      gwd.actions.events.addHandler('gwd-taparea_1', 'action', gwd.auto_Gwd_taparea_1Action, false);
+      gwd.actions.events.addHandler('expanded-page', 'pagedeactivated', gwd.onExpandRemoved, false);
+    };
+    gwd.actions.events.deregisterEventHandlers = function(event) {
+      gwd.actions.events.removeHandler('expand-button', 'action', gwd.handleExpand_buttonAction, false);
+      gwd.actions.events.removeHandler('close-button', 'action', gwd.handleClose_buttonAction, false);
+      gwd.actions.events.removeHandler('close-button', 'action', gwd.handleClose_reportManualClose, false);
+      gwd.actions.events.removeHandler('expanded-page', 'pagepresenting', gwd.onExpandPresent, false);
+      gwd.actions.events.removeHandler('expanded-page_1', 'pagepresenting', gwd.onJumpToVideo, false);
+      gwd.actions.events.removeHandler('dummy', 'action', gwd.auto_DummyAction, false);
+      gwd.actions.events.removeHandler('dummy', 'action', gwd.auto_DummyAction1, false);
+      gwd.actions.events.removeHandler('gwd-taparea_1', 'action', gwd.auto_Gwd_taparea_1Action, false);
+      gwd.actions.events.removeHandler('expanded-page', 'pagedeactivated', gwd.onExpandRemoved, false);
+    };
+    document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
+    document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
+  </script>
+  <script type="text/javascript" gwd-events="handlers">
+    gwd.handleExpand_buttonAction = function() {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.goToPage('gwd-ad', 'expanded-page');
+    };
+    gwd.handleClose_buttonAction = function() {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.goToPage('gwd-ad', 'banner-page');
+    };
+    gwd.handleClose_reportManualClose = function() {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.reportManualClose('gwd-ad');
+    };
+    gwd.onExpandPresent = function(event) {
+      console.log("Expand Present");
+      loadPlayer();
+    };
+    gwd.onFullscreenPresent = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'expanded-page', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_DummyAction = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'expanded-page_1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_DummyAction1 = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'expanded-page', 'none', 1000, 'linear', 'top');
+    };
+    gwd.onJumpToVideo = function(event) {
+      console.log("Jump to video");
+      //setTimeout(gotoVideo, 500);
+    };
+    gwd.onExpandRemoved = function(event) {
+      console.log("expand removed");
+      expandRemoved();
+    };
+    gwd.auto_Gwd_taparea_1Action = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'expanded-page', 'none', 1000, 'linear', 'top');
+    };
+  </script>
+  <script type="text/javascript" id="gwd-init-code">
+    (function() {
+      document.body.style.opacity = "0";
+      var gwdAd = document.getElementById('gwd-ad');
+      /**
+       * Handles the DOMContentLoaded event. The DOMContentLoaded event is
+       * fired when the document has been completely loaded and parsed.
+       */
+
+      function handleDomContentLoaded(event) {
+        // This is a good place to show a loading or branding image while
+        // the ad loads.
+      }
+
+      /**
+       * Handles the WebComponentsReady event. This event is fired when all
+       * custom elements have been registered and upgraded.
+       */
+      function handleWebComponentsReady(event) {
+        document.body.style.opacity = "";
+        // Start the Ad lifecycle.
+        setTimeout(function() {
+          gwdAd.initAd();
+        }, 0);
+      }
+
+      /**
+       * Handles the event that is dispatched after the Ad has been
+       * initialized and before the default page of the Ad is shown.
+       */
+      function handleAdInitialized(event) {
+        // This marks the end of the polite load phase of the Ad. If a
+        // loading image was shown to the user, this is a good place to
+        // remove it.
+      }
+
+      window.addEventListener('DOMContentLoaded',
+        handleDomContentLoaded, false);
+      window.addEventListener('WebComponentsReady',
+        handleWebComponentsReady, false);
+      window.addEventListener('adinitialized',
+        handleAdInitialized, false);
+    })();
+  </script>
+</body>
+
+</html>
